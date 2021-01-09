@@ -1,0 +1,38 @@
+@media only screen and (max-width:1150px){
+#nav{
+flex-direction: column;
+}
+#home{
+height: 438px;
+padding: 3px 28px;
+}
+#home::before{
+    height: 540px;
+}
+#home p{
+    font-size: 13px;
+}
+#services{
+flex-direction: column;
+}
+#services .box{
+    margin: 20px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 50px;
+    padding: 5px;
+    height: auto;
+}
+#contact-box form{
+    width: 80%;
+}
+footer{
+
+}
+.h-primary{
+    font-size: 23px;
+}
+}
